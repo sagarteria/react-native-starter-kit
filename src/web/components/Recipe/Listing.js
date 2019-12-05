@@ -23,10 +23,10 @@ const RecipeListing = ({ error, loading, recipes }) => {
         <CardImg top src={item.image} alt={item.title} />
       </Link>
       <CardBody>
-        <CardTitle>{item.title}</CardTitle>
+        <CardTitle>Emp Name: Suman ({item.title})</CardTitle>
         <CardText>{item.body}</CardText>
         <Link className="btn btn-primary" to={`/recipe/${item.id}`}>
-          View Recipe
+          Evaluate Technical Strength (KPI)
           {' '}
           <i className="icon-arrow-right" />
         </Link>
@@ -39,7 +39,7 @@ const RecipeListing = ({ error, loading, recipes }) => {
     <div>
       <Row className="pt-4 pt-sm-0">
         <Col sm="12">
-          <h1>Recipes</h1>
+          <h1>Human Resource Management Portal</h1>
           <p>The following data is read directly from Firebase.</p>
         </Col>
       </Row>
